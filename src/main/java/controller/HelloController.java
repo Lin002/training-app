@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * »ùÓÚSSM¿ò¼ÜµÄµÚÒ»¸ö¿ØÖÆÆ÷
- * 1.Ìí¼Ó@Controller
- * 2.·½·¨Ìí¼ÓÓ³ÉäÂ·¾¶
+ * ï¿½ï¿½ï¿½ï¿½SSMï¿½ï¿½ÜµÄµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * 1.ï¿½ï¿½ï¿½@Controller
+ * 2.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½Â·ï¿½ï¿½
  * @author 46365
  *@since jdk8
  */
@@ -18,4 +18,7 @@ public class HelloController {
     public String hello() {
 	return "hello nuc-a";
 }
+	public void hi() {
+		System.out.println("hi,haha");
+	}
 }
